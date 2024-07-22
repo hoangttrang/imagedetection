@@ -1,0 +1,30 @@
+name: blurry_clear_imagedetection 
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - pytorch
+  - transformers
+  - datasets
+  - jupyter
+  - jupyterlab
+  - pandas
+  - numpy
+  - ipywidgets
+  - jupyter-dash
+  - matplotlib
+  - nb-clean
+  - nb_conda_kernels
+  - nbdev
+  - nbdime
+  - openai
+  - pip
+  - plotly
+  - scikit-learn
+  - seaborn
+  - python-dotenv
+  - pip:
+      - piq 
+      - torch
+      - torchmetrics
